@@ -1,39 +1,36 @@
 # Product Management API
 
-A .NET Core Web API solution for managing products with distributed ID generation support. This solution follows clean architecture principles and provides a robust product management system.
+A .NET Core Web API solution for managing products with distributed ID generation support. This solution follows N-Tier architecture principles and implements a robust error handling pattern.
 
 ## Architecture
 
-The solution is structured into multiple projects following clean architecture principles:
+The solution follows a traditional N-Tier architecture with clear separation of concerns:
 
-- **API**: Web API project containing controllers and API configuration
-- **Core**: Contains business logic, interfaces, and DTOs
-- **DataAccess**: Implements data access and persistence
-- **Domain**: Contains domain entities and business rules
+- **Presentation Tier (API)**: Web API project containing controllers and endpoints
+- **Business Logic Tier (Core)**: Contains business logic, interfaces, DTOs, and the Result pattern implementation
+- **Data Access Tier (DataAccess)**: Implements data access patterns and database operations
+
+Each tier has specific responsibilities:
+- Presentation Tier handles HTTP requests, routing, and API documentation
+- Business Logic Tier manages business rules, validation, and orchestration
+- Data Access Tier handles database operations and data persistence
 
 ## Features
 
-- CRUD operations for products
+- CRUD operations for products with proper error handling
 - Distributed product ID generation with node support
-- Automatic ID padding and validation
-- Clean architecture implementation
-- Repository pattern for data access
-- Result pattern for error handling
-
-## Technical Stack
-
-- .NET Core 7.0+
-- Entity Framework Core
-- PostgreSQL (for database)
-- Clean Architecture
-- Repository Pattern
-- REST API
+- Automatic ID validation and zero-padding
+- N-Tier architectural separation
+- Generic Repository pattern for data access
+- Result pattern for consistent error handling
+- Input validation and sanitization
+- PostgreSQL sequence-based ID generation
 
 ## Getting Started
 
 ### Prerequisites
 
-- .NET Core SDK 7.0 or later
+- .NET Core SDK 8.0 or later
 - PostgreSQL database server
 - Visual Studio 2022 or VS Code
 
@@ -60,11 +57,9 @@ The solution is structured into multiple projects following clean architecture p
 ### Database Setup
 
 1. Open Package Manager Console
-2. Set DataAccess as the default project
+2. Set API as the default project
 3. Run migrations:
-```powershell
-Update-Database
-```
+dotnet ef database update
 
 ### Running the Application
 
@@ -90,31 +85,67 @@ dotnet run --project API
 - **DELETE** `/api/products/{id}` - Delete product
 - **PATCH** `/api/products/{id}/stock` - Update product stock
 
+All endpoints return a Result object with the following structure:
+```json
+{
+  "isSuccess": boolean,
+  "data": object | null,
+  "error": string | null
+}
+```
+
 ### Product ID Format
 
 Product IDs follow a specific format:
 - 6-digit numeric format
 - First digit: Node ID (0-9)
 - Last 5 digits: Sequential number
-- Shorter IDs are padded with leading zeros
+- Shorter IDs are automatically padded with leading zeros
+- Only numeric characters are allowed
 
-Example: "000123" (Node 0, Sequence 123)
+Examples:
+- "000123" (Node 0, Sequence 123)
+- "100001" (Node 1, Sequence 1)
+- Input "123" is automatically padded to "000123"
+
+## Architectural Layers
+
+### Presentation Tier (API)
+- Handles HTTP requests and responses
+- Implements API endpoints and routing
+- Manages request/response serialization
+- Handles basic request validation
+- API documentation (Swagger/OpenAPI)
+
+### Business Logic Tier (Core)
+- Implements business rules and validation
+- Manages data transfer objects (DTOs)
+- Handles service orchestration
+- Implements the Result pattern for error handling
+- Defines interfaces for dependency injection
+
+### Data Access Tier (DataAccess)
+- Implements the Repository pattern
+- Manages database connections
+- Handles entity mapping
+- Implements database migrations
+- Manages database transactions
 
 ## Error Handling
 
-The API uses a Result pattern for consistent error handling:
+The API implements a consistent error handling pattern using the Result<T> class:
 - Success responses include the data and success status
-- Error responses include error messages and failure status
-- Validation errors return appropriate error messages
+- Error responses include detailed error messages
+- Common validation errors:
+  - Invalid product ID format
+  - Product not found
+  - Duplicate product names
+  - Invalid input data
 
-## Contributing
+## Data Access
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+The solution uses:
+- Generic Repository pattern for data access abstraction
+- Entity Framework Core for database operations
+- PostgreSQL sequences for distributed ID generation
+- Async operations for better performance
