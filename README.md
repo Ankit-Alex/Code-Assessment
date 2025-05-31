@@ -9,6 +9,7 @@ The solution follows a traditional N-Tier architecture with clear separation of 
 - **Presentation Tier (API)**: Web API project containing controllers and endpoints
 - **Business Logic Tier (Core)**: Contains business logic, interfaces, DTOs, and the Result pattern implementation
 - **Data Access Tier (DataAccess)**: Implements data access patterns and database operations
+- **Tests**: Contains unit tests for the business logic
 
 Each tier has specific responsibilities:
 - Presentation Tier handles HTTP requests, routing, and API documentation
@@ -25,6 +26,7 @@ Each tier has specific responsibilities:
 - Result pattern for consistent error handling
 - Input validation and sanitization
 - PostgreSQL sequence-based ID generation
+- Comprehensive unit test coverage
 
 ## Getting Started
 
@@ -59,7 +61,9 @@ Each tier has specific responsibilities:
 1. Open Package Manager Console
 2. Set API as the default project
 3. Run migrations:
+```bash
 dotnet ef database update
+```
 
 ### Running the Application
 
@@ -73,6 +77,36 @@ dotnet restore
 ```bash
 dotnet run --project API
 ```
+
+### Running Tests
+
+To run the unit tests:
+
+```bash
+dotnet test
+```
+
+## Testing Approach
+
+The solution includes comprehensive unit tests using:
+- **xUnit**: Testing framework
+- **NSubstitute**: Mocking framework
+- **FluentAssertions**: Fluent assertion library
+
+Test coverage includes:
+- Product creation validation
+- ID formatting and validation
+- Stock management operations
+- Product updates and deletions
+- Error handling scenarios
+- Edge cases for product IDs
+
+Key test scenarios:
+- Valid and invalid product ID formats
+- Duplicate product name validation
+- Stock increment/decrement operations
+- Product CRUD operations
+- Error conditions and edge cases
 
 ## API Endpoints
 
