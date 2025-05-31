@@ -59,7 +59,9 @@ Each tier has specific responsibilities:
 1. Open Package Manager Console
 2. Set API as the default project
 3. Run migrations:
+```bash
 dotnet ef database update
+```
 
 ### Running the Application
 
