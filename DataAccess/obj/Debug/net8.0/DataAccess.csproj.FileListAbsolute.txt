@@ -1,0 +1,17 @@
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\bin\Debug\net8.0\Core.dll
+C:\Learning\.NET\Ziess_TakeHome\DataAccess\bin\Debug\net8.0\Core.pdb

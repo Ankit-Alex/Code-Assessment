@@ -1,0 +1,17 @@
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\bin\Debug\net8.0\Zeiss_TakeHome.DataAccess.deps.json
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\bin\Debug\net8.0\Zeiss_TakeHome.DataAccess.dll
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\bin\Debug\net8.0\Zeiss_TakeHome.DataAccess.pdb
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\bin\Debug\net8.0\Zeiss_TakeHome.Domain.dll
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\bin\Debug\net8.0\Zeiss_TakeHome.Domain.pdb
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\Zeiss_TakeHome.DataAccess.csproj.AssemblyReference.cache
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\Zeiss_TakeHome.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\Zeiss_TakeHome.DataAccess.AssemblyInfoInputs.cache
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\Zeiss_TakeHome.DataAccess.AssemblyInfo.cs
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\Zeiss_TakeHome.DataAccess.csproj.CoreCompileInputs.cache
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\Zeiss_Ta.5A5CCC4D.Up2Date
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\Zeiss_TakeHome.DataAccess.dll
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\refint\Zeiss_TakeHome.DataAccess.dll
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\Zeiss_TakeHome.DataAccess.pdb
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\ref\Zeiss_TakeHome.DataAccess.dll
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\bin\Debug\net8.0\Zeiss_TakeHome.DataAccess.runtimeconfig.json
+C:\Learning\.NET\Ziess_TakeHome\Ziess_TakeHome.DataAccess\obj\Debug\net8.0\Zeiss_TakeHome.DataAccess.genruntimeconfig.cache

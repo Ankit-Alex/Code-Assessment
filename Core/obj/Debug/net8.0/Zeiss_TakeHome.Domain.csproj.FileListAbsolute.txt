@@ -1,0 +1,14 @@
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\bin\Debug\net8.0\Zeiss_TakeHome.Domain.deps.json
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\bin\Debug\net8.0\Zeiss_TakeHome.Domain.dll
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\bin\Debug\net8.0\Zeiss_TakeHome.Domain.pdb
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\Zeiss_TakeHome.Domain.csproj.AssemblyReference.cache
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\Zeiss_TakeHome.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\Zeiss_TakeHome.Domain.AssemblyInfoInputs.cache
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\Zeiss_TakeHome.Domain.AssemblyInfo.cs
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\Zeiss_TakeHome.Domain.csproj.CoreCompileInputs.cache
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\Zeiss_TakeHome.Domain.dll
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\refint\Zeiss_TakeHome.Domain.dll
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\Zeiss_TakeHome.Domain.pdb
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\ref\Zeiss_TakeHome.Domain.dll
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\bin\Debug\net8.0\Zeiss_TakeHome.Domain.runtimeconfig.json
+C:\Learning\.NET\Ziess_TakeHome\Zeiss_TakeHome.Domain\obj\Debug\net8.0\Zeiss_TakeHome.Domain.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Learning\.NET\Ziess_TakeHome\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Learning\.NET\Ziess_TakeHome\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+C:\Learning\.NET\Ziess_TakeHome\Domain\bin\Debug\net8.0\Domain.dll
+C:\Learning\.NET\Ziess_TakeHome\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\Domain.dll
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+C:\Learning\.NET\Ziess_TakeHome\Domain\obj\Debug\net8.0\ref\Domain.dll
