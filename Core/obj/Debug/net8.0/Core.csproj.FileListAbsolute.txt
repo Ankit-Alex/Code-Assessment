@@ -12,3 +12,4 @@ C:\Learning\.NET\Ziess_TakeHome\Core\obj\Debug\net8.0\refint\Core.dll
 C:\Learning\.NET\Ziess_TakeHome\Core\obj\Debug\net8.0\Core.pdb
 C:\Learning\.NET\Ziess_TakeHome\Core\obj\Debug\net8.0\Core.genruntimeconfig.cache
 C:\Learning\.NET\Ziess_TakeHome\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Learning\.NET\Ziess_TakeHome\Core\obj\Debug\net8.0\Core.sourcelink.json

@@ -154,3 +154,4 @@ C:\Learning\.NET\Ziess_TakeHome\API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Sys
 C:\Learning\.NET\Ziess_TakeHome\API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Learning\.NET\Ziess_TakeHome\API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Learning\.NET\Ziess_TakeHome\API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Learning\.NET\Ziess_TakeHome\API\obj\Debug\net8.0\API.sourcelink.json
